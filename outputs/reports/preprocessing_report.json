@@ -1,0 +1,31 @@
+{
+  "raw_rows": 1170,
+  "raw_columns": 6,
+  "warnings": [],
+  "column_mapping": {
+    "Date": "date",
+    "Children apprehended and placed in CBP custody*": "children_apprehended_and_placed_in_cbp_custody",
+    "Children in CBP custody": "children_in_cbp_custody",
+    "Children transferred out of CBP custody": "children_transferred_out_of_cbp_custody",
+    "Children in HHS Care": "children_in_hhs_care",
+    "Children discharged from HHS Care": "children_discharged_from_hhs_care"
+  },
+  "blank_rows_removed": 450,
+  "invalid_date_rows_removed": 0,
+  "rows_without_numeric_values_removed": 0,
+  "duplicate_date_rows_aggregated": 0,
+  "missing_dates_interpolated": 355,
+  "clean_rows": 1075,
+  "clean_columns": 9,
+  "date_start": "2023-01-12",
+  "date_end": "2025-12-21",
+  "available_targets": [
+    "children_in_hhs_care",
+    "children_discharged_from_hhs_care",
+    "children_transferred_out_of_cbp_custody",
+    "children_in_cbp_custody",
+    "children_apprehended_and_placed_in_cbp_custody",
+    "net_pressure",
+    "intake_discharge_imbalance"
+  ]
+}

@@ -1,0 +1,9 @@
+column,lower_bound,upper_bound,outlier_count
+children_apprehended_and_placed_in_cbp_custody,-186.75,343.25,0
+children_in_cbp_custody,-301.25,595.417,0
+children_transferred_out_of_cbp_custody,-259.417,470.583,0
+children_in_hhs_care,-5807.75,16294.25,0
+children_discharged_from_hhs_care,-379.417,685.25,0
+net_pressure,-286.0,178.0,39
+intake_discharge_imbalance,-286.0,178.0,39
+capacity_pressure_index,0.475,1.304,64
