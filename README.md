@@ -21,6 +21,8 @@ Source context: [HHS](https://www.hhs.gov/)
 - Missing-value handling, duplicate removal, and date conversion.
 - Daily continuity checks with date interpolation.
 - Outlier detection using the IQR method.
+- Premium dark UI using the approved government-grade palette: `#2563EB`, `#0F172A`, `#F59E0B`, `#EF4444`, `#F8FAFC`, and `#CBD5E1`.
+- Glassmorphism KPI cards, risk alert panels, responsive layout, hover effects, Plotly dark charts, and Streamlit 1.56-compatible APIs.
 - Feature engineering for lags, rolling averages, rolling standard deviation, calendar fields, weekend flag, and net pressure.
 - Baseline models: Naive Forecast and Moving Average.
 - Statistical models: ARIMA, SARIMA, and Exponential Smoothing.
@@ -308,6 +310,8 @@ Required files:
 - `app/main.py`
 - `.streamlit/config.toml`
 
+The dashboard uses Streamlit 1.56+ features such as `st.iframe` and `width="stretch"`, so keep `streamlit>=1.56.0` in `requirements.txt`.
+
 Steps:
 
 1. Push the project to GitHub.
@@ -453,4 +457,3 @@ screenshots/
 ## License
 
 This project is released under the MIT License for academic, portfolio, and demonstration use.
-
