@@ -15,6 +15,8 @@ It is designed for:
 
 Source context: [HHS](https://www.hhs.gov/)
 
+Live deployed app: [Predictive Forecasting Dashboard](https://predictive-forecasting-dashboard04.streamlit.app/)
+
 ## Key Features
 
 - Dynamic CSV loading with safe column-name detection.
